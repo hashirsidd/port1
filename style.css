@@ -1,0 +1,591 @@
+.logo{
+   width: 280px;
+    height: 32px;
+    margin-top: -5px;
+    padding-left: 0px;
+}
+body{
+    background-image: url("images/bg.jpg");
+     overflow-x: hidden;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat; 
+}
+.nav-up {
+    top: -40px;
+}
+
+.container-navbar{
+    height: 50px;
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.navbar-right{
+    margin: 0;
+}
+.nav > li {
+    background: #000;
+}
+.nav > li:hover {
+    color: #fff;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    background-color: #000;
+}
+.container-fluid{
+     
+     height: 850px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: 0px;
+     padding: 0px;
+
+}
+
+
+.profilepic{
+    margin-top: 3em;
+    height: 160px;
+    border-radius: 50%;
+    width: 160px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 0.5em;
+    /*border: solid 1px #000*/
+    background-color: rgb(93, 97, 124);
+    
+}
+
+.heading{
+        font-size: 16px;
+}
+
+.container-pp{
+    float: none !important;
+}
+
+.banner{
+    width: 100%;
+    margin: 0;
+    margin-top: 40px;
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bolder;
+    line-height: 1.65;
+} 
+
+.heading{
+    font-size: 3.25em;
+    margin: 1em 0 1em 0em;
+    letter-spacing: 0.025em;
+    border-bottom: 2px solid #fff;
+    width: 950px;
+    padding-bottom: 35px;
+}
+
+.main-banner{
+    margin-left: 12em; 
+}
+
+.paragraph p{
+    font-size: 9px;
+    /*text-align: justify;*/
+    letter-spacing: 3px;
+     line-height: 2em;
+     font-family: 'Raleway', sans-serif;
+        padding: 5px 0 0 0;
+    }
+
+
+.button{
+    height: 40px;
+    width: 175px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid #fff;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 12px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwczovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzM2cHgnIGhlaWdodD0nMjRweCcgdmlld0JveD0nMCAwIDM2IDI0JyB6b29tQW5kUGFuPSdkaXNhYmxlJz48c3R5bGU+bGluZSB7IHN0cm9rZTogIzliZjFmZjsgc3Ryb2tlLXdpZHRoOiAycHg7IH08L3N0eWxlPjxsaW5lIHgxPScwJyB5MT0nMTInIHgyPSczNCcgeTI9JzEyJyAvPjxsaW5lIHgxPScyNScgeTE9JzQnIHgyPSczNCcgeTI9JzEyLjUnIC8+PGxpbmUgeDE9JzI1JyB5MT0nMjAnIHgyPSczNCcgeTI9JzExLjUnIC8+PC9zdmc+);
+    background-repeat: no-repeat;
+    background-position-x: 121px;
+    background-position-y: 7px;
+    border-radius: 3px;
+}
+ 
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease-in-out;
+}
+a{
+     transition: all 1s ease-in-out;
+}
+.row{
+    margin: 0px;
+    padding: 0px;
+
+}
+/*first tile*/
+.img-box{
+    background-image: url(images/0.jpg);
+}
+.color-box{
+   background-color:  rgba(121, 85, 72, 0.8);
+}
+/*second tile*/
+.img-box-one{
+    background-image: url(images/6.jpg);
+}
+.color-box-one{
+    background-color:  rgba(112, 130, 229, 0.8);
+}
+/*<!--third tile-->*/
+.img-box-two{
+    background-image: url(images/7.jpg)
+}
+.color-box-two{
+    background-color: rgba(3, 169, 244, 0.8);
+}
+/*fourth tile*/
+.img-box-three{
+    background-image: url(images/5.jpg);
+}
+.color-box-three{
+    background-color: rgba(70, 171, 116, 0.8);
+}
+.articles{
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.header{
+    position: relative;
+    z-index: 3;
+    display: block;
+
+}
+.articles a{
+       text-decoration: none;
+       color: #fff;
+}
+.link{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+}
+.link:hover{
+    background-color: transparent;
+    transition: all 0.5s ease-in-out ;
+}
+.container-link{
+    position: relative;
+    left: 70px;
+    top: 100px;
+}
+.p-img{
+    height: 30px;
+    margin-top: -5px;
+}
+.container-link h2{
+    border-bottom: 2px solid #fff;
+    width: 350px;
+    padding-bottom: 20px;
+}
+.container-link p{
+    padding-top: 10px;
+}
+
+.social-icons{
+    text-align: center;
+    position: relative;
+    bottom: -100px;    
+}
+
+.social-icons a i{
+    color: #ccc;
+    border: 1px solid #ffe;
+     border-radius: 50%; 
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 10px;
+    background-color:  rgba(239, 219, 219, 0.13);
+}
+
+.social-icons a:hover{
+    cursor: pointer;
+    color: #fff;
+}
+.fa-2x:hover{
+    color: #fff !important;
+    border: 1px solid #fff;
+    transition: all 0.2s ease-in-out ;
+    cursor: pointer;
+}
+.work-link{
+    font-family: 'Raleway', sans-serif;
+    color:#fff;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    bottom: 120px;
+}
+.glyphicon-chevron-down{
+    cursor: default;
+}
+.work-link p{
+    margin: 0;
+}
+.contact-div{
+    background-color:rgb(36, 41, 67);
+    font-family: 'Exo 2', sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+    height:  500px;
+}
+
+.name ,.email{
+    color: #fff;
+    width: 45%;
+}
+.message{
+    width: 90%;
+    
+}
+.main-row{
+    height: 100%;
+}
+.left{
+    border-bottom:1px solid rgba(212, 212, 255, 0.1); 
+    height: 100%;
+    padding-top: 80px;
+    padding-left: 60px ;
+    padding-bottom: 31px;
+
+}
+.inputs input{
+    background-color: #2a2f49;
+    border: none;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0 20px 0;
+    
+}
+textarea{
+   background-color: #2a2f49;
+    border: none;
+    width: 100%;
+    margin: 10px 0 20px 0;
+}
+.buttons button{
+    width: 115px;
+    height: 37px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+.send{
+    background: transparent;
+    margin-right: 20px;
+    
+}
+.clear{
+    color: #242943;
+    margin-left: 20px;
+}
+
+.right{
+    border: 1px solid rgba(212, 212, 255, 0.1);
+    height: auto;
+    border-top: none;
+    border-bottom: none;
+}
+.right,.left{
+    padding-left: 0px ;
+    padding-right: 0px;
+}
+.first-col,.second-col,.third-col{
+    padding: 3.5em 0;
+    padding-left: 6.25em;
+    position: relative;
+    border-bottom: 1px solid rgba(212, 212, 255, 0.1);
+}
+.right h3{
+    margin: 0 0 0.5em 0;
+    font-size: 1.35em;
+    font-weight: 600;
+    line-height: 1.65;
+    cursor: default;
+}
+.right a{
+    color: inherit;
+    text-decoration: none;
+}
+.first-col a{
+    border-bottom: dotted 1px;
+    
+}
+a-email:hover{
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.icon-one,.icon-two,.icon-three{
+    left: 20px;
+    top: 35%;
+    
+}
+.right span{
+    position: absolute;
+    color: #242943;
+    background-color: #e8e5e5;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+     border-radius: 50%;
+    text-align: center;
+    padding-top: 4px;
+}
+.second-col{
+    height: 33.333% !important;
+    
+}
+.third-col{
+    height: 33.333% !important;
+    
+}
+.last{
+    background-color: #242943;
+    height: 70px;
+}
+.last .social-icons{
+    bottom: -10px;
+    text-align: left !important;
+    border: none !important;    
+}
+.last .social-icons a i{
+    border: none;
+    background: transparent;
+    margin: 0;
+}
+/*for mobile size*/
+@media screen and (max-width: 767px) {
+    body{
+        padding: 0;
+        margin: 0 ;
+    }
+
+    
+    .profilepic{
+        height: 100px;
+        width: 100px;
+        margin-top: 5px;
+    }
+    
+    
+    .logo{
+        padding-left: 0px;
+        width: 200px;
+    }
+
+    .heading{
+    font-size: 24px !important;
+    margin-left: 0 !important;
+        margin-top: 10px;
+    letter-spacing: 0.01em !important;
+    border-bottom: 2px solid #fff;
+    width: 300px !important;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+    }
+
+    .main-banner{
+    margin-left: 0.5em !important; 
+    }
+    .paragraph p{
+    font-size: 60%;
+    letter-spacing: 1px !important;
+    }
+
+    .container-fluid{
+        height: 100vh;
+        width: 100% ;
+    }
+
+   .container-link{
+    position: relative;
+    left: 15px;
+    top: 100px !important;
+}
+.container-link h2{
+    border-bottom: 2px solid #fff;
+    width: 250px;
+    padding-bottom: 20px;
+    font-size:22px;
+}
+.container-link p{
+    font-size: 90%; 
+    letter-spacing: 1px; 
+    width: 90%;   
+}
+.social-icons a i{
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #ffe;
+    border-radius: 50%; 
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    padding-top: 7px;
+    margin: 5px;
+    background-color:  rgba(239, 219, 219, 0.13);
+}
+.social-icons{
+    text-align: center;
+    position: relative;
+    bottom: -30px;    
+}
+.work-link p {
+    margin: 0;
+    margin-top: -10px;
+}
+
+.articles{
+   height: 300px;
+    width: 300px;
+    margin: 10px 25px;
+    border: 1px solid;
+    border-radius: 9px;
+    overflow: hidden;
+    }
+
+.second-container{
+    padding-bottom: 15px;
+}
+
+
+
+.contact-div{
+    background-color:rgb(36, 41, 67);
+    font-family: 'Exo 2', sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+    height:  auto;
+}
+
+.name ,.email{
+    color: #fff;
+    width:95%;
+}
+.message{
+    width: 95%;
+    
+}
+.main-row{
+    height: 100%;
+}
+.left{
+    height: 100%;
+    padding-top: 40px;
+    padding-left: 30px ;
+
+}
+.inputs input{
+    background-color: #2a2f49;
+    border: none;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0 20px 0;
+    
+}
+textarea{
+   background-color: #2a2f49;
+    border: none;
+    width: 100%;
+    margin: 10px 0 20px 0;
+}
+.buttons button{
+    width: 100px;
+    height: 37px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    text-align: center;
+}
+.buttons div{
+    display: inline;
+}
+.send{
+    background: transparent;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+}
+.clear{
+    color: #242943;
+    margin-left: 10px;
+
+}
+
+
+
+}
+
+/*for tablet size*/
+@media (min-width: 768px) and (max-width: 991px) {
+.profilepic{
+        height: 130px;
+        width: 130px;
+        margin-top: 0.5em;
+    }
+    .one{
+        height:400px;
+    }    
+    .one-span{
+        background-size: 100% 100% !important;
+    }
+
+.container-fluid{
+     height: 100vh;
+}
+
+.main-banner{
+    margin-left: 10px;
+}
+    .heading{
+        margin-left: 0px !important;
+    font-size: 3.25em;
+    margin: 10px 0 10px 0;
+    letter-spacing: 0.025em;
+    border-bottom: 2px solid #fff;
+    width: 950px;
+    padding-bottom: 10px;
+}
+    .articles{
+    height: 1;
+    width: 1;
+    border: 1px solid;
+    border-radius: 9px;
+    overflow: hidden;
+    border-bottom: none; 
+    }
+    .social-icons{
+    text-align: center;
+    position: relative;
+    bottom: -5%;    
+}
+.social-icons a i{
+    font-size: 20px !important;
+    height: 31px;
+    width: 31px;
+    text-align: center;
+    padding-top: 5px;
+    margin: 10px;
+}
+
+}
